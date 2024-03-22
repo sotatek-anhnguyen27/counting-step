@@ -27,6 +27,6 @@
 static void pause(void);
 void mma_set(uint8_t addr, uint8_t data);
 void mma_init(void);
-signed short mag_read(uint8_t addr);
+signed short mma_read(uint8_t addr);
 
 #endif
